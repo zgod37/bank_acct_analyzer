@@ -3,7 +3,7 @@
 
 ### Introduction
 
-Hello! This is the very first program that I ever wrote.  I was dissatisfied with my bank's online spending tracker and how it presented its data. I wanted a much more simple presentation, but also more customizable.  So I decided that I would write my own program to present the data in a way that I wanted.  In the process, I learned alot about coding, making graphs, and even UI! Plus, it sparked an interest in software development that I didn't know I had!
+Hello! This is the very first program that I ever wrote.  I was dissatisfied with my bank's online spending tracker and how it presented its data. I wanted a simpler presentation, but also more customizable.  So I decided that I would write my own program to present the data in a way that I wanted.  In the process, I learned alot about coding, making graphs, and even some UI! Plus, it sparked an interest in software development that I didn't know I had!
 
 This program can generate two types of graphs:
 
