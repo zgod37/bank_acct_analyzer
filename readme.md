@@ -5,6 +5,14 @@
 
 Hello! This is the very first program that I ever wrote (circa 2014).  I was dissatisfied with my bank's online spending tracker and how it presented its data. I wanted a much more simple presentation, but yet more customizable.  So I decided that I would write my own program to present the data in a way that I wanted.  In the process, I learned alot about coding, graphs, and even some UI! Plus, it sparked an interest in software development that I didn't know I had!
 
+This program can generate two types of graphs:
+
+A simple line graph plotting your account balance over time
+![](https://github.com/zgod37/bank_acct_analyzer/graphs/line_example.png)
+
+A stacked bar graph plotting the amounts spent each month at specific locations, chosen by you!
+![](https://github.com/zgod37/bank_acct_analyzer/graphs/stacked_example.png)
+
 ## Input constraints
 
 This program was designed to read an auto-generated .txt file from Bank of America's online banking system. consisting of a list of transactions from a given checking/savings account. However, it can be used with any file where transactions are listed in the following format:
@@ -30,7 +38,7 @@ Example entries
   * Option 1 will generate a line graph of your account balance over time, for each account file in the accts folder
   * Option 2 will generate a stacked graph showing how much you spend at each month at the locations you choose! (see below for details)
 4. Use the data to gain insight on your spending habits
-5. Rinse & Repeat
+5. Rinse & Repeat!
 
 ### Notes about entering locations for stacked graphs
 
