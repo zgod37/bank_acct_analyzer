@@ -7,11 +7,11 @@ Hello! This is the very first program that I ever wrote (circa 2014).  I was dis
 
 This program can generate two types of graphs:
 
-A simple line graph plotting your account balance over time
-![](https://github.com/zgod37/bank_acct_analyzer/graphs/line_example.png)
+A simple line graph plotting your account balances over time
+![](https://github.com/zgod37/bank_acct_analyzer/blob/master/graphs/line_example.png)
 
 A stacked bar graph plotting the amounts spent each month at specific locations, chosen by you!
-![](https://github.com/zgod37/bank_acct_analyzer/graphs/stacked_example.png)
+![](https://github.com/zgod37/bank_acct_analyzer/blob/master/graphs/stacked_example.png)
 
 ## Input constraints
 
@@ -26,9 +26,10 @@ The following fields from left -> right on a single line, each separated by 2 or
 
 Example entries
 
->04/08/2014     CHECKCARD CHIPOTLE YOURTOWN,USA 34095096              -7.00     2,837.00
-
->04/09/2014     TRADER JOES MYTOWN,USA 20030445 CHECKCARD            -37.00     2,800.00
+```
+04/08/2014     CHECKCARD CHIPOTLE YOURTOWN,USA 34095096              -7.00     2,837.00
+04/09/2014     TRADER JOES MYTOWN,USA 20030445 CHECKCARD            -37.00     2,800.00
+```
 
 ## Quick guide
 
@@ -36,7 +37,7 @@ Example entries
 2. Double click 'main.py' to open the simple console interface
 3. Select which type of graph you want to make
   * Option 1 will generate a line graph of your account balance over time, for each account file in the accts folder
-  * Option 2 will generate a stacked graph showing how much you spend at each month at the locations you choose! (see below for details)
+  * Option 2 will generate a stacked graph showing how much you spend at each month at the locations you choose! (you'll be prompted for locations -- see below for details)
 4. Use the data to gain insight on your spending habits
 5. Rinse & Repeat!
 
