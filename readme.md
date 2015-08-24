@@ -7,7 +7,7 @@ Hello! This is the very first program that I ever wrote (circa 2014).  I was dis
 
 This program can generate two types of graphs:
 
-A simple line graph plotting your account balances over time
+A simple line graph plotting your account balances over time, with option to combine accounts
 ![](https://github.com/zgod37/bank_acct_analyzer/blob/master/graphs/line_example.png)
 
 A stacked bar graph plotting the amounts spent each month at specific locations, chosen by you!
@@ -15,7 +15,7 @@ A stacked bar graph plotting the amounts spent each month at specific locations,
 
 ## Input constraints
 
-This program was designed to read an auto-generated .txt file from Bank of America's online banking system. consisting of a list of transactions from a given checking/savings account. However, it can be used with any file where transactions are listed in the following format:
+This program was designed to read an auto-generated .txt file from Bank of America's online banking system, consisting of a list of transactions from a given checking/savings account. However, it can be used with any file where transactions are listed line-by-line in the following format:
 
 The following fields from left -> right on a single line, each separated by 2 or more spaces
 
@@ -33,7 +33,7 @@ Example entries
 
 ## Quick guide
 
-1. First put your account files in the "accts" folder. Make sure they are .txt files!
+1. First put your account files in the "accts" folder. Make sure they are .txt files and fit the formatting constraints listed above!
 2. Double click 'main.py' to open the simple console interface
 3. Select which type of graph you want to make
   * Option 1 will generate a line graph of your account balance over time, for each account file in the accts folder
@@ -45,4 +45,4 @@ Example entries
 
 * Be sure to use only one word per location (e.g. "whole" instead of "whole foods")
 * Check your file's transaction description to get an idea of how they're stored in your bank's database. For example, Marathon gas stations are listed in my bank as "MARATHO"
-* Beware! Some purveyors have seemingly random transaction descriptions, e.g. Wal-Mart is sometimes listed as "WM SUPERCENTER" and "WAL-MART" other times. YMMV
+* Beware of inconsistencies! Some purveyors have seemingly random transaction descriptions, e.g. Wal-Mart is listed as "WM SUPERCENTER" sometimes, and "WAL-MART" other times. YMMV
