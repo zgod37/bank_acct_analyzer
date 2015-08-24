@@ -1,19 +1,19 @@
-# Simple Bank Account Analyzer and Graph Maker
-### Written in Python 3.4 by zgod
+## Simple Bank Account Analyzer and Graph Maker
+#### Written in Python 3.4 by zgod
 
-## Introduction
+### Introduction
 
-Hello! This is the very first program that I ever wrote (circa 2014).  I was dissatisfied with my bank's online spending tracker and how it presented its data. I wanted a much more simple presentation, but yet more customizable.  So I decided that I would write my own program to present the data in a way that I wanted.  In the process, I learned alot about coding, graphs, and even some UI! Plus, it sparked an interest in software development that I didn't know I had!
+Hello! This is the very first program that I ever wrote.  I was dissatisfied with my bank's online spending tracker and how it presented its data. I wanted a much more simple presentation, but also more customizable.  So I decided that I would write my own program to present the data in a way that I wanted.  In the process, I learned alot about coding, making graphs, and even UI! Plus, it sparked an interest in software development that I didn't know I had!
 
 This program can generate two types of graphs:
 
 A simple line graph plotting your account balances over time, with option to combine accounts
 ![](https://github.com/zgod37/bank_acct_analyzer/blob/master/graphs/line_example.png)
 
-A stacked bar graph plotting the amounts spent each month at specific locations, chosen by you!
+A stacked bar graph plotting the amounts spent each month at specific business locations, chosen by the user
 ![](https://github.com/zgod37/bank_acct_analyzer/blob/master/graphs/stacked_example.png)
 
-## Input constraints
+### Input constraints
 
 This program was designed to read an auto-generated .txt file from Bank of America's online banking system, consisting of a list of transactions from a given checking/savings account. However, it can be used with any file where transactions are listed line-by-line in the following format:
 
@@ -31,18 +31,18 @@ Example entries
 04/09/2014     TRADER JOES MYTOWN,USA 20030445 CHECKCARD            -37.00     2,800.00
 ```
 
-## Quick guide
+### Quick guide
 
 1. First put your account files in the "accts" folder. Make sure they are .txt files and fit the formatting constraints listed above!
 2. Double click 'main.py' to open the simple console interface
 3. Select which type of graph you want to make
-  * Option 1 will generate a line graph of your account balance over time, for each account file in the accts folder
+  * Option 1 will generate a line graph of your account balance over time, for each account file in the accts folder. Optional argument to show totals of all accounts
   * Option 2 will generate a stacked graph showing how much you spend at each month at the locations you choose! (you'll be prompted for locations -- see below for details)
-4. Use the data to gain insight on your spending habits
-5. Rinse & Repeat!
+4. Profit! ...Well, maybe not, but you can use this data to gain insight on your spending habits.
 
-### Notes about entering locations for stacked graphs
+#### More about entering locations for stacked graphs
 
+TIPS
 * Be sure to use only one word per location (e.g. "whole" instead of "whole foods")
 * Check your file's transaction description to get an idea of how they're stored in your bank's database. For example, Marathon gas stations are listed in my bank as "MARATHO"
 * Beware of inconsistencies! Some purveyors have seemingly random transaction descriptions, e.g. Wal-Mart is listed as "WM SUPERCENTER" sometimes, and "WAL-MART" other times. YMMV
