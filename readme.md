@@ -10,6 +10,7 @@ Hello! This is the very first program that I ever wrote (circa 2014).  I was dis
 This program was designed to read an auto-generated .txt file from Bank of America's online banking system. consisting of a list of transactions from a given checking/savings account. However, it can be used with any file where transactions are listed in the following format:
 
 The following fields from left -> right on a single line, each separated by 2 or more spaces
+
 1. Date of transaction (mm/dd/yyyy)
 2. Transaction description
 3. Change in account balance (xxx,xxx.xx)
