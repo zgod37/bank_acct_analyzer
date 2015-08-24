@@ -17,7 +17,9 @@ The following fields from left -> right on a single line, each separated by 2 or
 4. New account balance (xxx,xxx.xx)
 
 Example entries
+
 >04/08/2014     CHECKCARD CHIPOTLE YOURTOWN,USA 34095096              -7.00     2,837.00
+
 >04/09/2014     TRADER JOES MYTOWN,USA 20030445 CHECKCARD            -37.00     2,800.00
 
 ## Quick guide
